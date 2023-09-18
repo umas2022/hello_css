@@ -61,6 +61,17 @@ const routes: Array<RouteRecordRaw> = [
       }]
     },
 
+    // c005
+    {
+      path: '/c005_scroll',
+      name: '瀑布流滚动',
+      component: LayoutIndex,
+      children: [{
+        path: "/c005_scroll",
+        component: () => import('../views/c005_scroll/PageIndex.vue')
+      }]
+    },
+
 ]
 
 const router = createRouter({

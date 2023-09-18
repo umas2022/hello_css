@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkhello_css"]=self["webpackChunkhello_css"]||[]).push([[527],{1527:function(c,s,a){a.r(s),a.d(s,{default:function(){return i}});var e=a(3396);const n=c=>((0,e.dD)("data-v-6a88ac5c"),c=c(),(0,e.Cn)(),c),l={class:"page-body"},d=n((()=>(0,e._)("div",{id:"header"},[(0,e._)("h1",null,"hello css"),(0,e._)("h3",null,"收集有趣的css，持续更新中")],-1))),r=[d];function t(c,s){return(0,e.wg)(),(0,e.iD)("div",l,r)}var u=a(89);const o={},h=(0,u.Z)(o,[["render",t],["__scopeId","data-v-6a88ac5c"]]);var i=h}}]);
+//# sourceMappingURL=527.9af8c20b.js.map
