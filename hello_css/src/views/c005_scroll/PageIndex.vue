@@ -15,7 +15,6 @@
 
         <!-- 内容主体 -->
         <div id="main-box" @scroll="scrollTrigger">
-
             <div class="container">
                 <div v-for="i in 60" :key="i" class="box"></div>
             </div>
@@ -39,7 +38,7 @@ import { onMounted } from 'vue';
 
 function scrollTrigger(event:Event) {
     const mainBox = event.target;
-    const scrollTop = mainBox.scrollTop;
+    const scrollTop = mainBox!.scrollTop;
 
     let boxes = document.querySelectorAll(".box")
     boxes.forEach((boxxx) => {
@@ -98,14 +97,14 @@ div.page-body {
 .container .box:nth-child(3n+1){ // 选中第3n+1个元素
     transform: translate(-400px,0) scale(0); // 向左平移且缩小
 }
-.container .box:nth-child(3n+2){ // 选中第3n+1个元素
-    transform: translate(0,400px) scale(0); // 向左平移且缩小
+.container .box:nth-child(3n+2){ 
+    transform: translate(0,400px) scale(0); // 向下平移缩小
 }
-.container .box:nth-child(3n+3){ // 选中第3n+1个元素
-    transform: translate(400px,0) scale(0); // 向左平移且缩小
+.container .box:nth-child(3n+3){ 
+    transform: translate(400px,0) scale(0); 
 }
 
 .container .box.active{
-    transform: translate(0,0) scale(1); // 向左平移且缩小
+    transform: translate(0,0) scale(1); 
 }
 </style>

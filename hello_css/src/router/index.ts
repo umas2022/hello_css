@@ -72,6 +72,17 @@ const routes: Array<RouteRecordRaw> = [
       }]
     },
 
+        // c006
+        {
+          path: '/c006_aspect_ratio',
+          name: '保持宽高比',
+          component: LayoutIndex,
+          children: [{
+            path: "/c006_aspect_ratio",
+            component: () => import('../views/c006_aspect_ratio/PageIndex.vue')
+          }]
+        },
+
 ]
 
 const router = createRouter({
