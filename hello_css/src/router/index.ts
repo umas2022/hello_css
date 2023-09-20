@@ -7,7 +7,7 @@ const routes: Array<RouteRecordRaw> = [
   // home
   {
     path: '/home',
-    alias:'/',
+    alias: '/',
     name: 'home',
     component: LayoutIndex,
     children: [{
@@ -50,38 +50,50 @@ const routes: Array<RouteRecordRaw> = [
     }]
   },
 
-    // c004
-    {
-      path: '/c004_click_like',
-      name: '点赞动效',
-      component: LayoutIndex,
-      children: [{
-        path: "/c004_click_like",
-        component: () => import('../views/c004_click_like/PageIndex.vue')
-      }]
-    },
+  // c004
+  {
+    path: '/c004_click_like',
+    name: '点赞动效',
+    component: LayoutIndex,
+    children: [{
+      path: "/c004_click_like",
+      component: () => import('../views/c004_click_like/PageIndex.vue')
+    }]
+  },
 
-    // c005
-    {
-      path: '/c005_scroll',
-      name: '瀑布流滚动',
-      component: LayoutIndex,
-      children: [{
-        path: "/c005_scroll",
-        component: () => import('../views/c005_scroll/PageIndex.vue')
-      }]
-    },
+  // c005
+  {
+    path: '/c005_scroll',
+    name: '瀑布流滚动',
+    component: LayoutIndex,
+    children: [{
+      path: "/c005_scroll",
+      component: () => import('../views/c005_scroll/PageIndex.vue')
+    }]
+  },
 
-        // c006
-        {
-          path: '/c006_aspect_ratio',
-          name: '保持宽高比',
-          component: LayoutIndex,
-          children: [{
-            path: "/c006_aspect_ratio",
-            component: () => import('../views/c006_aspect_ratio/PageIndex.vue')
-          }]
-        },
+  // c006
+  {
+    path: '/c006_aspect_ratio',
+    name: '保持宽高比',
+    component: LayoutIndex,
+    children: [{
+      path: "/c006_aspect_ratio",
+      component: () => import('../views/c006_aspect_ratio/PageIndex.vue')
+    }]
+  },
+
+  // c007
+  {
+    path: '/c007_cool_button',
+    name: '玻璃灯光按钮',
+    component: LayoutIndex,
+    children: [{
+      path: "/c007_cool_button",
+      component: () => import('../views/c007_cool_button/PageIndex.vue')
+    }]
+  },
+
 
 ]
 
