@@ -12,6 +12,7 @@ const routes: Array<RouteRecordRaw> = [
     component: LayoutIndex,
     children: [{
       path: "/home",
+      alias: '/',
       name: "home",
       component: () => import('../views/HomeView.vue')
     }]
@@ -94,6 +95,27 @@ const routes: Array<RouteRecordRaw> = [
     }]
   },
 
+  // c008
+  {
+    path: '/c008_glass_card',
+    name: '玻璃卡片',
+    component: LayoutIndex,
+    children: [{
+      path: "/c008_glass_card",
+      component: () => import('../views/c008_glass_card/PageIndex.vue')
+    }]
+  },
+
+  // c009
+  {
+    path: '/c009_drop_card',
+    name: '水滴卡片',
+    component: LayoutIndex,
+    children: [{
+      path: "/c009_drop_card",
+      component: () => import('../views/c009_drop_card/PageIndex.vue')
+    }]
+  },
 
 ]
 
