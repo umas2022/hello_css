@@ -117,6 +117,38 @@ const routes: Array<RouteRecordRaw> = [
     }]
   },
 
+  // c010
+  {
+    path: '/c010_particle',
+    name: '粒子特效',
+    component: LayoutIndex,
+    children: [{
+      path: "/c010_particle",
+      component: () => import('../views/c010_particle/PageIndex.vue')
+    }]
+  },
+
+  // c011
+  {
+    path: '/c011_rating',
+    name: '圆形进度条',
+    component: LayoutIndex,
+    children: [{
+      path: "/c011_rating",
+      component: () => import('../views/c011_rating/PageIndex.vue')
+    }]
+  },
+
+  // c012
+  {
+    path: '/c012_wave_text',
+    name: '文字水流',
+    component: LayoutIndex,
+    children: [{
+      path: "/c012_wave_text",
+      component: () => import('../views/c012_wave_text/PageIndex.vue')
+    }]
+  },
 ]
 
 const router = createRouter({

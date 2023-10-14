@@ -3,11 +3,11 @@
         <el-scrollbar>
             <!-- 标题说明 -->
             <div id="header">
-                <h1>标题</h1>
+                <h1>圆形进度条</h1>
                 <h3>说明</h3>
             </div>
             <div id="refer">
-                <a href="">参考：链接</a>
+                <a href="https://www.bilibili.com/video/BV1vV411u7KP/?spm_id_from=333.788.recommend_more_video.6&vd_source=d406c457c7d9cdc7f75d8f0288b0bed9">参考：用CSS做一个非常简单好玩的文字水流效果～</a>
             </div>
             
             <!-- 内容主体 -->

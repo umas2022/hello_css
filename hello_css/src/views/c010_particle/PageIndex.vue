@@ -1,16 +1,13 @@
 <template>
     <div class="page-body">
         <el-scrollbar>
-            <!-- 标题说明 -->
             <div id="header">
-                <h1>标题</h1>
-                <h3>说明</h3>
+                <h1>粒子特效</h1>
+                <h3>about</h3>
             </div>
             <div id="refer">
-                <a href="">参考：链接</a>
+                <a href="https://github.com/chokcoco/iCSS/issues/195">参考：使用 CSS 构建强大且酷炫的粒子动画</a>
             </div>
-            
-            <!-- 内容主体 -->
             <div id="main-box">
 
                 制作中
@@ -31,8 +28,9 @@ div.page-body {
 
     #main-box {
         padding-top: 100px;
-        padding-bottom: 100px;
+
     }
 }
 
 </style>
+
